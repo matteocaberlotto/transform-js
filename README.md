@@ -5,7 +5,7 @@ this requires jQuery
 
 **examples**:
 
-translate to x = 100, y = 100
+##translate to x = 100, y = 100
 
 	tTransform($("#myLogo"), {
 	  dx: 100,
@@ -13,7 +13,7 @@ translate to x = 100, y = 100
 	});
 
 
-translate to z -1000 and scale down
+##translate to z -1000 and scale down
 
 	tTransform($("#myLogo"), {
 	  dz: -1000,
@@ -23,7 +23,7 @@ translate to z -1000 and scale down
 	});
 
 
-translate and rotate:
+##translate and rotate:
 
 	tTransform($("#myLogo"), {
 	  dx: 100,
