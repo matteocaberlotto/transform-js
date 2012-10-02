@@ -1,6 +1,17 @@
 /**
  * Example:
- * tTransform($("#myLogo"), {100, 100, -1000, 0, 0, 0, 0, 0.8, 0.8, 0.8});
+ * tTransform($("#myLogo"), {
+ *  dx: 100,
+ *  dy: 100,
+ *  dz: -1000,
+ *  v1: 0,
+ *  v2: 0,
+ *  v3: 0,
+ *  angle: 0,
+ *  scaleX: 0.8,
+ *  scaleY: 0.8,
+ *  scaleZ: 0.8
+ * });
  * will translate the element to the point (100, 100, -1000), will apply no rotation
  * and scale to 0.8 (in all directions).
  */
