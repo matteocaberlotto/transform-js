@@ -1,3 +1,10 @@
+/**
+ * Example:
+ * tTransform($("#myLogo"), {100, 100, -1000, 0, 0, 0, 0, 0.8, 0.8, 0.8});
+ * will translate the element to the point (100, 100, -1000), will apply no rotation
+ * and scale to 0.8 (in all directions).
+ */
+
 var tTransform = (function(){
 	return {
 	    getTransformValue: function(conf)
