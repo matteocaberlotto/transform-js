@@ -4,10 +4,6 @@
  *  dx: 100,
  *  dy: 100,
  *  dz: -1000,
- *  v1: 0,
- *  v2: 0,
- *  v3: 0,
- *  angle: 0,
  *  scaleX: 0.8,
  *  scaleY: 0.8,
  *  scaleZ: 0.8
