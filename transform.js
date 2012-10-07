@@ -38,8 +38,8 @@ var tTransform = (function(){
 	        };
 	        var conf = $.extend(defaults, config);
 
-	        transform_value = _hLanding.animations.getTransformValue(conf);
-	        _hLanding.animations.assignTransformation(_jqueryObject, transform_value);
+	        transform_value = tTransform.getTransformValue(conf);
+	        tTransform.assignTransformation(_jqueryObject, transform_value);
 	    },
 
 	    assignTransformation: function(_jqueryObject, transform_value)
